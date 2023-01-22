@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+.home-div{
+    display: inline-block
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1b244a;
+    padding: 69px 85px;
+}
+h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-left: 15px
+}
+.score-div{
+    background-color: black;
+    color: red;
+    width: 155px;
+    height: 120px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 90px;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;  
+}
+.add-pts{
+    width: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px
+}
